@@ -10205,11 +10205,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "SimpleLibrary_WinLegacy_VB",
-      "projectName": "SimpleLibrary_WinLegacy_VB",
-      "projectPath": "C:\\Users\\alexandru.hertanu\\Documents\\GitHub\\AutoTests\\SimpleLibrary_WinLegacy_VB\\.local",
+      "projectUniqueName": "SimpleLibrary_WinLegacy_C",
+      "projectName": "SimpleLibrary_WinLegacy_C",
+      "projectPath": "C:\\Users\\alexandru.hertanu\\OneDrive - UiPath\\Documents\\UiPath\\SimpleLibrary_WinLegacy_C\\.local",
       "packagesPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandru.hertanu\\Documents\\GitHub\\AutoTests\\SimpleLibrary_WinLegacy_VB\\.local",
+      "outputPath": "C:\\Users\\alexandru.hertanu\\OneDrive - UiPath\\Documents\\UiPath\\SimpleLibrary_WinLegacy_C\\.local",
       "fallbackFolders": [
         "C:\\ProgramData\\UiPath\\NugetFallbackFolder"
       ]

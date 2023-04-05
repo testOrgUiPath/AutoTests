@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VpQGd0q0Jin0dReyVf73i7x/yPgcpVqzJNEOyNiKnWbbD4O64EEw0+3YthFbaLZCIa+tT8F+mNyLh3KSI6yECg==",
+  "dgSpecHash": "L8pbsv7JVSAzznkqdFzRNx8YqQqraYkcUmhrIU1azl9eGA7TfBYiSAjXa4uF9UQsWVSHf1JEkLEAri2dCyL31w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\GitHub\\AutoTests\\SimpleLibrary_WinLegacy_VB\\.local\\",
+  "projectFilePath": "C:\\Users\\alexandru.hertanu\\OneDrive - UiPath\\Documents\\UiPath\\SimpleLibrary_WinLegacy_C\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
