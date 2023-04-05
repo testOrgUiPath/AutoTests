@@ -1,8 +1,10 @@
 {
   "name": "Process_with_test_WinLegacy_C",
-  "description": "Test Automation Project",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.0-beta.3709801]",
+    "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.System.Activities": "[23.4.0-preview]",
     "UiPath.Testing.Activities": "[23.4.0-preview]",
     "UiPath.UIAutomation.Activities": "[23.4.1-preview]"
@@ -32,7 +34,7 @@
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Tests",
+    "outputType": "Process",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -43,14 +45,23 @@
     "fileInfoCollection": [
       {
         "editingStatus": "Publishable",
-        "testCaseId": "5d0bdb1f-ff32-4d65-9b71-93ed91c8b7d4",
+        "testCaseId": "139f1982-0610-42c0-b986-cb41481ed1e9",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_WinLegacy_C.xaml"
       }
     ],
     "modernBehavior": true
   },
   "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "233b0f0b-1db4-4666-91f4-34ae473f24b2",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},

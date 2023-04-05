@@ -9,11 +9,21 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "TestCase.xaml",
+      "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "testArg"
+        "TestArg"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TestCase_WinLegacy_VB.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "check"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null

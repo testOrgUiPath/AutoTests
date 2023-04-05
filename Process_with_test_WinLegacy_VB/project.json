@@ -1,8 +1,10 @@
 {
   "name": "Process_with_test_WinLegacy_VB",
-  "description": "Test Automation Project",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.0-beta.3709801]",
+    "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.System.Activities": "[23.4.0-preview]",
     "UiPath.Testing.Activities": "[23.4.0-preview]",
     "UiPath.UIAutomation.Activities": "[23.4.1-preview]"
@@ -11,13 +13,13 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.0.0",
-  "projectVersion": "1.0.134388426",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": false,
+    "requiresUserInteraction": true,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
@@ -32,7 +34,7 @@
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Tests",
+    "outputType": "Process",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -43,14 +45,23 @@
     "fileInfoCollection": [
       {
         "editingStatus": "Publishable",
-        "testCaseId": "5e1d5af3-eb52-4778-a382-6a7ac0bf0ef9",
+        "testCaseId": "bb9254c8-ea53-4adb-9d70-e98c748f054e",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_WinLegacy_VB.xaml"
       }
     ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "0eddb1bd-0b42-4c72-9b72-95177b3e0a06",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},

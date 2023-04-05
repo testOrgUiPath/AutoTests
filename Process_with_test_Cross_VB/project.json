@@ -1,6 +1,6 @@
 {
   "name": "Process_with_test_Cross_VB",
-  "description": "Test Automation Project",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.4.0-preview]",
@@ -18,7 +18,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
@@ -33,7 +33,7 @@
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Tests",
+    "outputType": "Process",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -44,14 +44,23 @@
     "fileInfoCollection": [
       {
         "editingStatus": "Publishable",
-        "testCaseId": "527ddcbf-f8eb-479b-b367-0396679d097d",
+        "testCaseId": "9db37489-8383-4242-b86a-b49f769199d1",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_Cross_VB.xaml"
       }
     ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "6253e599-d39b-40c4-be5c-82e0336c9aa8",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
